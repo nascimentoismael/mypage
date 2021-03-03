@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/solid.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+.container {
+  margin-left: 120px;
+  margin-top: 100px;
+  width: 60vh;
+  height: 350px;
+  color: #1e3c63;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  float: left;
+  margin-left: 5vh;
+}
+
+.copy {
+  position: absolute;
+  display: block;
+  margin-left: 35vh;
+}
+
+h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title__copy {
+  font-family: "Lusitana", sans-serif;
+  line-height: 0;
+}
+
+a {
+  color: #1e3c63;
+}
+
+a:visited {
+  color: unset;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.contact__info {
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.social {
+  margin-top: 4px;
+  margin-left: 90vh;
+}
+
+.social i {
+  color: #1e3c63;
+}
